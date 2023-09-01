@@ -1,0 +1,22 @@
+//+------------------------------------------------------------------+
+//|                                                 Sound_On-Off.mq4 |
+//|                                   Copyright © 2010, Korvin Æ Co. |
+//|                                         http://alecask.narod.ru/ |
+//+------------------------------------------------------------------+
+#property copyright "Copyright © 2010, Korvin Æ Co."
+#property link      "http://alecask.narod.ru/"
+#property show_inputs
+#define QUESTION "¬ Àﬁ◊»“‹ »À» ¬€ Àﬁ◊»“‹ «¬”  ?!"
+extern string msg1 = QUESTION;
+extern bool SoundOn;
+//+------------------------------------------------------------------+
+//| script program start function                                    |
+//+------------------------------------------------------------------+
+int start()
+  {
+if (SoundOn) {GlobalVariableSet("Sound", 1); msg1 = "«¬”  ¬ Àﬁ◊®Õ !!!";}
+else {GlobalVariableSet("Sound", 0); msg1 = "«¬”  Œ“Àﬁ◊®Õ !!!";}
+Alert(msg1);
+   return(0);
+  }
+//+------------------------------------------------------------------+

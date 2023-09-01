@@ -1,0 +1,17 @@
+AutoMM=false
+Risk=5.0
+Start_Lot=0.1
+StopLoss=350
+Allow_trade_after_stop=false
+TakeProfit=1000
+Allow_trade_after_take=true
+Period_MA=35
+TimeBarOpen=1
+Slippage=1
+Profit_Min=1
+Loss_Min=1
+Strategy=1
+Multipler_Mod=1
+Martin_multiplier=2.0
+Parlay_max=3
+Magic=100

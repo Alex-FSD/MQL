@@ -1,0 +1,8 @@
+UsedSymbol=EURAUD
+Direction=sell
+MagicNumber=99902
+TakeProfit=25
+StopLoss=0
+Distance=100
+Slippage=5
+Lot=0.01

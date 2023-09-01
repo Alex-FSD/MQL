@@ -1,0 +1,29 @@
+Magic=7
+EA_Comment=
+MaxSpread=-1.0
+Slippage=2
+Auto_GMT=true
+Calculate_DST=true
+Manual_GMT_Offset=2
+CS===== Custom Settings ====
+StealthMode=false
+NFA=false
+No_Hedge=false
+TicksTrade=false
+StopLoss=0
+TakeProfit=0
+Channel_Period=0
+Entry_Break=0
+Exit_Distance=0
+Exit_DistanceM1=0
+Start_Trade_Hour=-1
+End_Trade_Hour=-1
+MaxDailyRange=55
+UseCustomPair=false
+UseSettingsFrom=GBPUSD
+MM===== Risk Management ====
+RecoveryMode=false
+FixedLots=0.1
+AutoMM=2
+AutoMM_Max=20.0
+MaxAccountTrades=0

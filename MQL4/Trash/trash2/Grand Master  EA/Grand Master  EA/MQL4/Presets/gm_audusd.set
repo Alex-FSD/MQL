@@ -1,0 +1,8 @@
+UsedSymbol=AUDUSD
+Direction=buy
+MagicNumber=99901
+TakeProfit=20
+StopLoss=0
+Distance=100
+Slippage=5
+Lot=0.01

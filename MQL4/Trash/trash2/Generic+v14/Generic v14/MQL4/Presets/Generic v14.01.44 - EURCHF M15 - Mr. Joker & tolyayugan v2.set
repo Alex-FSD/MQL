@@ -1,0 +1,65 @@
+S_1=<==== General Settings ====>
+SetName=Generic v14 - eurchf M15 - Mr. Joker & tolyayugan v2
+MagicNumber=14403
+Slippage=5
+Lots=0.01
+DepoPer001Lot=0
+Take_Profit=15
+TP_perc=0
+min_TP=10
+S_11=<==== Grid Settings ====>
+StopOpenNewOrders=false
+Max_Spread=5
+Stop_Loss=0
+ExitDDPercent=0
+Max_DrawDown=0
+StopByMaxSymbolTrades=0
+StopEqualCurrencyTrade=false
+StopEqualCurrencyDelay=false
+CurrencyTradeMaxHours=0
+S_2=<==== ENTER SETTINGS ====>
+S_21=Bollinger Bands Settings
+BB_Period=9
+BB_Deviation=1.5
+Entry_Break=1
+Min_Volatility=20
+S_22=CCI Settings
+cci_Period_open=0
+TopLow_levels=100
+S_23=Candle Size Filter (if Max Candle Size = 0, filter off)
+UseMaxCandleForAllOrders=true
+maxcandle=20
+barcount=4
+S_31=<==== Grid Settings ====>
+ATR_Period=14
+ATR_Multiplier=3
+Multiplier1=1
+Multiplier2=1.60
+TPDecreasePercent=5
+BE_Level=8
+BE_Step=3
+Averaging_Level=12
+S_3=<==== EXIT SETTINGS ====>
+Exit_Profit_Percent=75
+Out_Channel_Distance=0
+cci_Period_exit=0
+Exit_MA_period=9
+Exit_Minutes=180
+S_5=<==== Trade Time Filter ====>
+GMTOffset=0
+Start_Trade_Hour=18
+Start_Trade_Minute=0
+End_Trade_Hour=3
+End_Trade_Minute=0
+S_6=<==== Rollover Filter ====>
+use_rollover_filter=true
+Start_Rollover_Hour=23
+Start_Rollover_Minute=55
+End_Rollover_Hour=0
+End_Rollover_Minute=15
+S_7=<==== Other Settings ====>
+showinfopanel=true
+VisualDebug=true
+Col_info=5197615
+LogMode=2
+WriteLogFile=true
